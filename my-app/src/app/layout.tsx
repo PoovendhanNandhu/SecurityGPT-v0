@@ -8,12 +8,12 @@ import { authOptions } from "../../pages/api/auth/[...nextauth]";
 import { getServerSession } from "next-auth";
 // import Menu from "@/components/Menu";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "SecurityGPT",
-  description: "AI for Cyber Security and IT help",
-};
+// export const metadata = {
+//   title: "SecurityGPT",
+//   description: "AI for Cyber Security and IT help",
+// };
 
 export default async function RootLayout({
   children,

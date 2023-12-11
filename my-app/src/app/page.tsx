@@ -1,5 +1,6 @@
 "use client";
 import "../../styles/globals.css"
+import "./page.css"
 import ChatInput from "../components/ChatInput";
 import Menu from '../components/Menu'
 import SideBar from "../components/SideBar";
